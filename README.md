@@ -1,12 +1,12 @@
-Student Management API Documentation
-Overview
+# Student Management API Documentation
 The Student Management API allows clients to perform CRUD operations on student data. The API provides endpoints to retrieve, create, update, and delete student records.
 
-Base URL
-perl
-Copy code
-http://<your-server-domain>/api/v1
-Response Format
+## Base URL
+```bash
+[pip install foobar](http://<your-server-domain>/api/v1)
+```
+
+## Response Format
 All responses are in JSON format.
 Success responses include relevant data or success messages.
 Error responses include an appropriate HTTP status code and an error message.
