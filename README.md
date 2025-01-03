@@ -3,7 +3,7 @@ The Student Management API allows clients to perform CRUD operations on student 
 
 ## Base URL
 ```bash
-[pip install foobar](http://<your-server-domain>/api/v1)
+(http://<your-server-domain>/api/v1)
 ```
 
 ## Response Format
@@ -11,8 +11,8 @@ All responses are in JSON format.
 Success responses include relevant data or success messages.
 Error responses include an appropriate HTTP status code and an error message.
 Endpoints
-1. Get All Students
-Request
+## 1. Get All Students
+``` Request
 Endpoint: /getStudent
 Method: GET
 Description: Fetches a list of all students.
@@ -41,7 +41,7 @@ json
 Copy code
 {
     "error": "Error occurred while fetching students"
-}
+} ```
 2. Add a New Student
 Request
 Endpoint: /addstudents
