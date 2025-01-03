@@ -41,8 +41,10 @@ json
 Copy code
 {
     "error": "Error occurred while fetching students"
-} ```
-2. Add a New Student
+} 
+```
+## 2. Add a New Student
+```
 Request
 Endpoint: /addstudents
 Method: POST
@@ -73,7 +75,9 @@ Copy code
 {
     "error": "Error occurred while adding student"
 }
-3. Edit a Student
+```
+## 3. Edit a Student
+```
 Request
 Endpoint: /editstudents
 Method: PUT
@@ -111,7 +115,9 @@ Copy code
 {
     "error": "Error occurred while editing student"
 }
-4. Delete a Student
+```
+## 4. Delete a Student
+```
 Request
 Endpoint: /students/{id}
 Method: DELETE
@@ -137,3 +143,4 @@ Copy code
 {
     "error": "Error occurred while deleting student"
 }
+```
