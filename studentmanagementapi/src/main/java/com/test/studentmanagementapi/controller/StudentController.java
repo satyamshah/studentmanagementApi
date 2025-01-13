@@ -34,7 +34,6 @@ public class StudentController {
     @GetMapping("/getStudent")
     public ResponseEntity<List<Student>> getAllStudents() {
         try {
-            logger.info("Fetching all students...");
             List<Student> students = studentService.getAllStudents();
             logger.info("Successfully fetched {} students", students.size());
             return ResponseEntity.ok(students);
